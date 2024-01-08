@@ -20,7 +20,7 @@ public class Engineer extends Employee {
 
     @Override
     public String toString() {
-        return "Skills " + Arrays.toString(skills);
+        return super.toString() + "  " + Arrays.toString(skills);
     }
 
 }

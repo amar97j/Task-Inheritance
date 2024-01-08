@@ -20,7 +20,7 @@ public class SalesPerson extends Employee {
 
     @Override
     public String toString() {
-        return "Target " + salesTarget;
+        return super.toString() + "   Target " + salesTarget;
     }
 
 }

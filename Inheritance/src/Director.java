@@ -17,6 +17,6 @@ public class Director extends Employee {
 
     @Override
     public String toString() {
-        return "New budget " + budget;
+        return super.toString() + "    New budget " + budget;
     }
-}
+};
